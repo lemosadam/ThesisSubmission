@@ -41,7 +41,7 @@ public class UnitController : MonoBehaviour
          
           if (Input.GetMouseButtonDown(0))
             {
-            if (UnityEngine.EventSystems.EventSystem.current != null &&
+                if (UnityEngine.EventSystems.EventSystem.current != null &&
                 UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
              {
                 Debug.Log("Clicked on UI, ignoring.");
